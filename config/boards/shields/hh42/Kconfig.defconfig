@@ -1,7 +1,7 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_CORNED_DONGLE
+if SHIELD_HH42_DONGLE
 
 config ZMK_KEYBOARD_NAME
 	default "hh42 dongle"
@@ -14,7 +14,7 @@ config ZMK_USB
 
 endif
 
-if SHIELD_CORNED_LEFT || SHIELD_CORNED_RIGHT || SHIELD_CORNED_DONGLE
+if SHIELD_HH42_LEFT || SHIELD_HH42_RIGHT || SHIELD_HH42_DONGLE
 
 config ZMK_SPLIT
 	default y
