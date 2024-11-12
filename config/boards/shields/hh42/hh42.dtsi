@@ -5,13 +5,15 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <layouts/foostan/corne/6column.dtsi>
+
+// Assigning suitable kscan and matrix transforms
+&foostan_corne_6col_layout {
+    transform = <&default_transform>;
+    kscan = <&kscan0>;
+};
 
 / {
-
-	chosen {
-		zmk,kscan = &kscan0;
-		zmk,matrix_transform = &default_transform;
-	};
 
 	default_transform: keymap_transform_0 {
 		compatible = "zmk,matrix-transform";
