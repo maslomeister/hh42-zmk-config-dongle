@@ -26,7 +26,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LGUI>
+                <&kp LGUI>,
                 <&macro_press>,
                 <&kp LCTL>,
                 <&macro_press>,
