@@ -88,7 +88,7 @@
 
         lower_layer {
             bindings = <
-&kp LEFT_GUI  &none  &none  &none   &none   &kp F5      &kp EXCL   &kp AT         &kp HASH      &kp DLLR    &kp PERCENT   &kp RGUI
+&kp LEFT_GUI  &none  &none  &kp F13 &none   &kp F5      &kp EXCL   &kp AT         &kp HASH      &kp DLLR    &kp PERCENT   &kp RGUI
 &kp LCTRL     &none  &none  &none   &kp F2  &clrpckr    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LPAR    &kp RPAR      &kp RCTRL
 &kp EQUAL     &none  &none  &none   &none   &lng_sw     &kp SLASH  &kp BACKSLASH  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &kp RALT
                             &trans  &trans  &trans      &trans     &trans         &trans
