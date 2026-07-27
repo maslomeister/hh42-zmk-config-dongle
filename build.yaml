@@ -6,12 +6,12 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: hh42_left
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: hh42_right
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: hh42_dongle
     snippet: studio-rpc-usb-uart
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: settings_reset
